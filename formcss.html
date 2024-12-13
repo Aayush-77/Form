@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style>
+		body{
+			background-image: url(buddha.jfif);
+			background-repeat: no-repeat;
+			background-size: 100% 160%;
+            
+		}
+		h1{
+			text-align: center;
+			color: blueviolet;
+			text-decoration: underline;
+			opacity: 0.5;
+
+		}
+         
+         form{
+         	color: whitesmoke;
+         	text-align: revert;
+         	font-weight: bolder;
+
+         }
+         input{
+         	color: royalblue;
+         }
+         button:hover{
+         	border: 2px solid black;
+         	border-radius: 6px;
+    
+         }
+	</style>
+</head>
+<body>
+<h1>Membership Form</h1>
+<form>
+<label>Firstname:</label><input type="text" id="fname" placeholder="Your firstname" required><br><br>
+<label>Middlename:</label><input type="text" id="mname" placeholder="Your middlename"><br><br>
+<label>Lastname:</label><input type="text" id="lname" placeholder="Your lastname" required><br><br>
+<label>Phoneno.:</label><input type="number" id="num" placeholder="Your number" required><br><br>
+<label>E-mail:</label><input type="text" id="mail" placeholder="name@gmail.com" required><br><br>
+Gender:
+<input type="radio" id="a" name="Gender">Male
+<input type="radio" id="b" name="Gender">Female
+<input type="radio" id="c" name="Gender">Others<br><br>
+Country:<select name="crt"required>
+	<option value="">Select a country</option>
+	<option value="Nepal">Nepal</option>
+	<option value="India">India</option>
+	<option value="Bhutan">Bhutan</option>
+	<option value="Maldives">Maldives</option>
+	<option value="Pakistan">Pakistan</option>
+	<option value="Afganistan">Afganistan</option>
+	<option value="China">China</option>
+	<option value="America">America</option>
+</select> <br><br>
+<center><button>Click Me!</button></center>
+</form>
+</body>
+</html>
+ 
